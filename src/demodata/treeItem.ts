@@ -19,7 +19,29 @@ const demoTreeData: TreeData[] = [
       {
         id: "49145ge7-2b34-40a3-8726-a040f4792a0b",
         name: "hijo2 de padre1",
-        checked: false
+        checked: false,
+        treeData: [
+          {
+            id: "49145de7-2b34-40a3-8726-a040f4792a0b",
+            name: "hijo1 de hijo1 de padre 1",
+            checked: true
+          },
+          {
+            id: "49145ge7-2b34-40a3-8726-a040f4792a0b",
+            name: "hijo2 de hijo1 de padre 1",
+            checked: false
+          },
+          {
+            id: "49145de7-2b34-50a3-8726-a040f4792a0b",
+            name: "hijo3 de hijo1 de padre 1",
+            checked: true
+          },
+          {
+            id: "49sag5de7-2b34-40a3-8726-a040f4792a0b",
+            name: "hijo4 de hijo1 de padre 1",
+            checked: false
+          }
+        ]
       },
       {
         id: "49145de7-2b34-50a3-8726-a040f4792a0b",
@@ -51,6 +73,28 @@ const demoTreeData: TreeData[] = [
       {
         id: "49145ge7-2b34-4hd3-8726-a040f4792a0b",
         name: "hijo2 de padre3",
+        treeData: [
+          {
+            id: "49145de7-2b34-40a3-8726-a040f4792a0b",
+            name: "hijo1 de hijo2 de padre 3",
+            checked: true
+          },
+          {
+            id: "49145ge7-2b34-40a3-8726-a040f4792a0b",
+            name: "hijo2 de hijo2 de padre 3",
+            checked: true
+          },
+          {
+            id: "49145de7-2b34-50a3-8726-a040f4792a0b",
+            name: "hijo3 de hijo2 de padre 3",
+            checked: false
+          },
+          {
+            id: "49sag5de7-2b34-40a3-8726-a040f4792a0b",
+            name: "hijo4 de hijo2 de padre 3",
+            checked: false
+          }
+        ],
         checked: true
       },
       {
