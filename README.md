@@ -17,7 +17,7 @@ Por favor, lee las siguientes notas antes de empezar:
 En la aplicación desarrolla las siguientes funcionalidades:
 
 - Hacer las llamadas al api [jsonplaceholder](https://jsonplaceholder.typicode.com/) para recuperar los usuarios y posts
-- Formatear los datos obtenidos del jsonplaceholder en un arreglo de objetos. Estos objetos tienen que tener los datos de los usuarios y los posts en un parámetro llamado "post". Ejemplo:
+- Formatear los datos obtenidos del jsonplaceholder en un arreglo de objetos. Estos objetos tienen que tener los datos de los usuarios y los posts en un parámetro llamado "posts". Ejemplo:
   ```javascript
   [
   {
