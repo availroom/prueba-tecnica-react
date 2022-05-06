@@ -24,6 +24,7 @@ En la aplicación desarrolla las siguientes funcionalidades:
     id: 2,
     name: "Jaimito",
     email: "jaimito@gmail.com",
+    ...todos los demas datos del usuario,
     posts: [
       {
         userId: 2,
@@ -43,6 +44,7 @@ En la aplicación desarrolla las siguientes funcionalidades:
     id: 3,
     name: "Pepito",
     email: "pepito@gmail.com",
+    ...todos los demas datos del usuario,
     posts: [
       {
         userId: 3,
